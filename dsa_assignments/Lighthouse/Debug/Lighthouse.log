@@ -1,0 +1,23 @@
+﻿生成启动时间为 2015/11/8 14:33:35。
+     1>项目“C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Lighthouse\Lighthouse.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\programfiles\VS2015_Community\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS Lighthouse.cpp
+         Lighthouse.cpp
+     1>c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\lighthouse\lighthouse.cpp(122): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\lighthouse\lighthouse.cpp(136): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\lighthouse\lighthouse.cpp(142): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\lighthouse\lighthouse.cpp(120): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type '__int64 *'
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\lighthouse\lighthouse.cpp(120): note: consider using '%lld' in the format string
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\lighthouse\lighthouse.cpp(120): note: consider using '%I64d' in the format string
+     1>c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\lighthouse\lighthouse.cpp(142): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type '__int64'
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\lighthouse\lighthouse.cpp(142): note: consider using '%lld' in the format string
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\lighthouse\lighthouse.cpp(142): note: consider using '%I64d' in the format string
+       Link:
+         D:\programfiles\VS2015_Community\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Debug\Lighthouse.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Debug\Lighthouse.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Debug\Lighthouse.lib" /MACHINE:X86 Debug\Lighthouse.obj
+         Debug\stdafx.obj
+         Lighthouse.vcxproj -> C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Debug\Lighthouse.exe
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Lighthouse\Lighthouse.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:07.06

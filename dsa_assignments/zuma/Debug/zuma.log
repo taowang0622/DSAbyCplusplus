@@ -1,0 +1,23 @@
+﻿生成启动时间为 2015/10/27 14:00:14。
+     1>项目“C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\zuma\zuma.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\programfiles\VS2015_Community\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt zuma.cpp
+         zuma.cpp
+     1>c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\zuma\zuma.cpp(99): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+     1>c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\zuma\zuma.cpp(159): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\zuma\zuma.cpp(159): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\zuma\zuma.cpp(159): note: the missing variadic argument 2 is required by format string '%c'
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\zuma\zuma.cpp(159): note: this argument is used as a buffer size
+     1>c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\zuma\zuma.cpp(171): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\zuma\zuma.cpp(171): note: placeholders and their parameters expect 3 variadic arguments, but 2 were provided
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\zuma\zuma.cpp(171): note: the missing variadic argument 3 is required by format string '%c'
+         c:\users\administrator\documents\visual studio 2015\projects\dsa_assignments\zuma\zuma.cpp(171): note: this argument is used as a buffer size
+       Link:
+         D:\programfiles\VS2015_Community\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Debug\zuma.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Debug\zuma.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Debug\zuma.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\zuma.obj
+         zuma.vcxproj -> C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\Debug\zuma.exe
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2015\Projects\dsa_assignments\zuma\zuma.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.77
